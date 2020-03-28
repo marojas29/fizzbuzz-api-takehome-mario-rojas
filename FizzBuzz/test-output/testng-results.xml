@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93" started-at="2020-03-27T18:40:26Z" finished-at="2020-03-27T18:40:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93" started-at="2020-03-27T18:40:26Z" finished-at="2020-03-27T18:40:26Z">
+      <class name="takehome.assessment.fizzbuzz_api.FizzBuzzTest">
+        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList" duration-ms="26" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList" duration-ms="3" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz" duration-ms="3" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz" duration-ms="4" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_multipleOfThree_shouldReturnFizz -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal -->
+      </class> <!-- takehome.assessment.fizzbuzz_api.FizzBuzzTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
