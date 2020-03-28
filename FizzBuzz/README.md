@@ -23,6 +23,7 @@ For the FizzBuzz program, I implemented a simple console interface where user in
 
 The menu is the following: 
 
+```  
 +-----------------------------+
 |   Please make a selection   |
 +-----------------------------+
@@ -32,6 +33,7 @@ The menu is the following:
 4) Generate with custom range AND custom value/word
 0) Exit
 Enter your choice:   
+```  
 
 - Be sure to input numeric values where numeric values are expected (int), although data type validation as been covered as well.
 
@@ -51,8 +53,8 @@ The application has been design to loop until user selects option to exit (choic
 
 - For executing test validation scripts, having installed MAVEN is a prerequisite as well
 
-    Note: If you haven't installed yet an up-to-date SDK on your computer here is where you can download and install it accordingly 
-    https://www.oracle.com/java/technologies/sdk-downloads.html
+    Note: If you haven't installed yet Maven, here is where you can download and install it accordingly 
+   http://maven.apache.org/install.html
 
 
 Due to time constraints and simplicity, current implementation has room for improvement for sure such as adding Extended Report capabilities for each script execution, adding a properties file so no parameter in the source code is hard coded and therefore a more scalable and more data driven fashion is achieved, as well as few refactoring with the test class for it to be more scalable with case by case scenario (so far I included top 9 scenarios as sannity test but the more requirements and more complexity, the more validations are required)
@@ -61,35 +63,58 @@ Due to time constraints and simplicity, current implementation has room for impr
 ### Installing
 Since this is a executable jar file based on a Maven project, no further installation other than having SDK would be neccessary to ensure proper execution.
 
-clone or download github repository accordingly: 
+Clone or download github repository accordingly: https://github.com/marojas29/fizzbuzz-api-takehome-mario-rojas.git
 
 ### Coding style
-Program has been compiled into a executable jar file (fizzbuzz.jar) 
+Program has been compiled into a executable jar file (FizzBuzz.jar) 
 This program is based on Maven proyect, which has already defined all dependencies in a POM.xml file
 
 
-## Execution
+## Jar Execution
 
-In order to execute this program, it can be done by requirements using command prompt, to do so follow the next steps: 
+In order to execute this program, it can be done using command prompt, to do so follow the next steps: 
 
-* 1.- At your command prompt go to 'whole-foods-take-home-test' root directory 
-- Example: /Users/mariorojas/WholeFoods_TakeHomeTest_MarioRojas
+* 1.- At your command prompt go to FizzBuzz proyect directory
+- Example: /Users/mariorojas/FizzBuzz
 
-* 2.- Run command for executing jar file as well as define parameters for input and output accordingly which aligns with txt file and expected Json file 
-- Note: Input text file must have proper formatting (explained above) and it should be inside root directory
+* 2.- Run command for executing jar file
 
-- Jar Execution Command: Run the following command on your command prompt (at 'whole-foods-take-home-test' root directory)
+- Jar Execution Command: Run the following command on your command prompt (at 'FizzBuzz' proyect directory)
 
 ```
-java -jar rscrape.jar inFile.txt outFile.json
+java -jar FizzBuzz.jar
 ```
 
+## Test Suite execution
+In order to execute this program, it can be done using command prompt, to do so follow the next steps: 
+
+* 1.- At your command prompt go to FizzBuzz proyect directory
+- Example: /Users/mariorojas/FizzBuzz
+
+* 2.- Run command for maven clean test (this command will trigger validation scripts to be run)
+```
+mvn clean test
+```
+
+## Test reports
+
+Due to time constraints, reporting has been only implemented using testNG libraries, 
+this report is generated as a html file right after every script execution, 
+you can find this file at the following proyect directory path
+
+```
+fizzbuzz-api-takehome-mario-rojas/FizzBuzz/test-output/index.html
+```
+
+Tip for better visualitazion is to download file and use any broswer to visualize file
+
+At the home page, at the left upper corner, a link for "Passed methods (show)" is shown,
+once clicked, more execution details are provided.
 
 ## Built With
 * [SDK](https://www.oracle.com/java/technologies/sdk-downloads.html) - Java ME Software Development Kit
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [JSoup](https://jsoup.org/) - API Library for extracting and manipulating data
-* [SIMPLE Json](https://github.com/fangyidong/json-simple) - JSON.simple is a simple Java toolkit for JSON
+* [testNG](https://testng.org/doc/index.html) - API Library for testing and assertion frameworks
 
 
 ## Author
