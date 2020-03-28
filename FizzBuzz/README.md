@@ -37,13 +37,13 @@ Enter your choice:
 
 - Be sure to input numeric values where numeric values are expected (int), although data type validation as been covered as well.
 
-Note: data type validation has been handled only at API level, this per the nature of this assessment, usually my approach would be to implement data check at client and server side for data parameters, following a "fast-fail" apprroach.
+Note: data type validation has been handled only at API level, this per the nature of this assessment, usually my approach would be to implement data check at client and server side for data parameters, following a "fast-fail" approach.
 
 Having said that, non-numeric input values have been covered accordingly 
 
-Once you select a valid choice, and input parameters accordingly, a list generate method is triggered which will automatically print values based on specifications
+Once you select a valid choice, and input all parameters accordingly, a list-generate method is triggered which will automatically print values based on specifications.
 
-The application has been design to loop until user selects option to exit (choice 0)
+The application has been design to loop until user selects option to exit (choice 0).
 
 ### Prerequisites
 - SDK: Since the nature of this project is java (jar executable file) having an SDK is a prerequisite 
@@ -57,7 +57,7 @@ The application has been design to loop until user selects option to exit (choic
    http://maven.apache.org/install.html
 
 
-Due to time constraints and simplicity, current implementation has room for improvement for sure such as adding Extended Report capabilities for each script execution, adding a properties file so no parameter in the source code is hard coded and therefore a more scalable and more data driven fashion is achieved, as well as few refactoring with the test class for it to be more scalable with case by case scenario (so far I included top 9 scenarios as sannity test but the more requirements and more complexity, the more validations are required)
+Due to time constraints and simplicity, current implementation has still room for improvement for sure, example such as adding Extended Report capabilities for script execution (right now is only supporting those provided by testNG ), also adding a properties file so no parameter in the source code is hard coded and therefore a more scalable and more data driven fashion is achieved. Moreover, some refactoring with the test class for it to be more scalable with case by case scenario (so far I have included top 9 scenarios as sannity test but the more requirements and more complexity, the more validations might be required).
 
 
 ### Installing
@@ -86,7 +86,7 @@ java -jar FizzBuzz.jar
 ```
 
 ## Test Suite execution
-In order to execute this program, it can be done using command prompt, to do so follow the next steps: 
+In order to execute this program, it can be done using command prompt, to do so follow the next steps (Making sure Maven has been already installed in your computer): 
 
 * 1.- At your command prompt go to FizzBuzz proyect directory
 - Example: /Users/mariorojas/FizzBuzz
@@ -98,15 +98,13 @@ mvn clean test
 
 ## Test reports
 
-Due to time constraints, reporting has been only implemented using testNG libraries, 
-this report is generated as a html file right after every script execution, 
-you can find this file at the following proyect directory path
+Due to time constraints, reporting has been only implemented using testNG libraries, this report is generated as a html file right after every script execution, you can find this file at the following proyect directory path.
 
 ```
 fizzbuzz-api-takehome-mario-rojas/FizzBuzz/test-output/index.html
 ```
 
-Tip for better visualitazion is to download file and use any broswer to visualize file
+Tip for better visualitazion is to download file and use any broswer to visualize file.
 
 At the home page, at the left upper corner, a link for "Passed methods (show)" is shown,
 once clicked, more execution details are provided.
@@ -120,4 +118,3 @@ once clicked, more execution details are provided.
 ## Author
 
 * **Mario Rojas**
-
