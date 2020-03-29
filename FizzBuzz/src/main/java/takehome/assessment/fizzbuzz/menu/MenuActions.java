@@ -35,13 +35,13 @@ public class MenuActions {
 		System.out.println("Custom value -> Input first numeric value: ");
 		String valueOne = keyboard.nextLine();
 			
-		System.out.println("Custom word for value 1 -> Input new word option: ");
+		System.out.println("Custom word for value [ " + valueOne +" ] -> Input new word option: ");
 		String wordValueOne = keyboard.nextLine();
 			
-		System.out.println("Custom value -> Input first numeric value: ");
+		System.out.println("Custom value -> Input second numeric value: ");
 		String valueTwo = keyboard.nextLine();
 			
-		System.out.println("Custom word for value 2 -> Input new word option: ");
+		System.out.println("Custom word for value [ " + valueTwo+ " ] -> Input new word option: ");
 		String wordValueTwo = keyboard.nextLine();
 			
 			
@@ -62,13 +62,13 @@ public class MenuActions {
 		System.out.println("Custom value -> Input first numeric value: ");
 		String valueOne = keyboard.nextLine();
 		
-		System.out.println("Custom word for value 1 -> Input new word option: ");
+		System.out.println("Custom word for value [ " + valueOne +" ] -> Input new word option: ");
 		String wordValueOne = keyboard.nextLine();
 		
-		System.out.println("Custom value -> Input first numeric value: ");
+		System.out.println("Custom value -> Input second numeric value: ");
 		String valueTwo = keyboard.nextLine();
 		
-		System.out.println("Custom word for value 2 -> Input new word option: ");
+		System.out.println("Custom word for value [ " + valueTwo+ " ] -> Input new word option: ");
 		String wordValueTwo = keyboard.nextLine();
 		
 		
