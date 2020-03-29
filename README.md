@@ -55,9 +55,12 @@ The application has been design to loop until user selects option to exit (choic
 
     Note: If you haven't installed yet Maven, here is where you can download and install it accordingly 
    http://maven.apache.org/install.html
+   
+Note: Helpful resource to Maven installation instructions: https://howtodoinjava.com/maven/how-to-install-maven-on-windows/ 
 
+Due to time constraints and simplicity, current implementation has still room for improvement for sure, example such as adding Extent Report capabilities for script execution (right now is only supporting those provided by testNG ), also adding a properties file so no parameter in the source code is hard coded and therefore a more scalable and more data driven fashion is achieved. Moreover, some refactoring with the test class for it to be more scalable with case by case scenario (so far I have included top 9 scenarios as sannity test but the more requirements and more complexity, the more validations might be required).
 
-Due to time constraints and simplicity, current implementation has still room for improvement for sure, example such as adding Extended Report capabilities for script execution (right now is only supporting those provided by testNG ), also adding a properties file so no parameter in the source code is hard coded and therefore a more scalable and more data driven fashion is achieved. Moreover, some refactoring with the test class for it to be more scalable with case by case scenario (so far I have included top 9 scenarios as sannity test but the more requirements and more complexity, the more validations might be required).
+### UPDATE [3/29]: Extent Reports capability has been implemented successfully, instructions and more details explained below
 
 
 ### Installing
@@ -88,6 +91,8 @@ java -jar FizzBuzz.jar
 ## Test Suite execution
 In order to execute this program, it can be done using command prompt, to do so follow the next steps (Making sure Maven has been already installed in your computer): 
 
+Note: Helpful resource to Maven installation instructions: https://howtodoinjava.com/maven/how-to-install-maven-on-windows/ 
+
 * 1.- At your command prompt go to FizzBuzz proyect directory
 - Example: /Users/mariorojas/FizzBuzz
 
@@ -109,12 +114,21 @@ Tip for better visualitazion is to download file and use any broswer to visualiz
 At the home page, at the left upper corner, a link for "Passed methods (show)" is shown,
 once clicked, more execution details are provided.
 
+
+### UPDATE [3/29]: Extent Reports integration has been completed*
+New fresh html report will be generated once every mvn clean test is executed, this file will be stored at a dedicated folder directory [fizzbuzz-test-report.html]
+
+```
+fizzbuzz-api-takehome-mario-rojas/FizzBuzz/Reports/fizzbuzz-test-report.html
+``` 
+
 ## Built With
 * [SDK](https://www.oracle.com/java/technologies/sdk-downloads.html) - Java ME Software Development Kit
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [testNG](https://testng.org/doc/index.html) - API Library for testing and assertion frameworks
+* [ExtentReports](https://extentreports.com/docs/versions/4/java/) - API Library for creating HTML reports out of testNG results
 
 
 ## Author
 
-* **Mario Rojas**
+**Mario Rojas**
