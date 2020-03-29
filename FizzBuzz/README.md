@@ -88,6 +88,8 @@ java -jar FizzBuzz.jar
 ## Test Suite execution
 In order to execute this program, it can be done using command prompt, to do so follow the next steps (Making sure Maven has been already installed in your computer): 
 
+Note: Helpful resource to Maven installation instructions: https://howtodoinjava.com/maven/how-to-install-maven-on-windows/ 
+
 * 1.- At your command prompt go to FizzBuzz proyect directory
 - Example: /Users/mariorojas/FizzBuzz
 
