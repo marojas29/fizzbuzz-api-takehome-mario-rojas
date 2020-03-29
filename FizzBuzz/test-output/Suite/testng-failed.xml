@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="takehome.assessment.fizzbuzz.report_util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="FizzBuzzTest(failed)">
+    <classes>
+      <class name="takehome.assessment.fizzbuzz_api.FizzBuzzTest">
+        <methods>
+          <include name="spacing"/>
+          <include name="closingRemarks"/>
+          <include name="setUp"/>
+          <include name="setUpTestCaseReport"/>
+          <include name="fizzBuzzGenerator_customRangeLimitCustomValueNamePair_shouldGenerateListWithinNewLimitsUsingNewValueWordPair"/>
+        </methods>
+      </class> <!-- takehome.assessment.fizzbuzz_api.FizzBuzzTest -->
+    </classes>
+  </test> <!-- FizzBuzzTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
