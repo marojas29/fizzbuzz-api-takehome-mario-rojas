@@ -1,41 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="93" started-at="2020-03-27T18:40:26Z" finished-at="2020-03-27T18:40:26Z">
+  <suite name="Suite" duration-ms="209" started-at="2020-03-29T12:33:19 CDT" finished-at="2020-03-29T12:33:20 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="93" started-at="2020-03-27T18:40:26Z" finished-at="2020-03-27T18:40:26Z">
+    <test name="FizzBuzzTest" duration-ms="209" started-at="2020-03-29T12:33:19 CDT" finished-at="2020-03-29T12:33:20 CDT">
       <class name="takehome.assessment.fizzbuzz_api.FizzBuzzTest">
-        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList" duration-ms="26" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUp" is-config="true" duration-ms="42" started-at="2020-03-29T12:33:19 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList" duration-ms="12" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_invalidCustomRange_shouldThrowErrorAndReturnEmptyList -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList" duration-ms="3" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_invalidCustomValues_shouldThrowErrorAndReturnEmptyList -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz" duration-ms="3" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_multipleOfFive_shouldReturnBuzz -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz" duration-ms="4" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_multipleOfThreeFive_shouldReturnFizzBuzz()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_multipleOfThree_shouldReturnFizz()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_multipleOfThree_shouldReturnFizz" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_multipleOfThree_shouldReturnFizz -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_nonMultipleOfThreeFive_shouldReturnPlainValue -->
-        <test-method status="PASS" signature="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@234bef66]" name="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal" duration-ms="2" started-at="2020-03-27T13:40:26Z" finished-at="2020-03-27T13:40:26Z">
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="1" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fizzBuzzGenerator_rangeFromOneToFifty_shouldReturnOneAsInitialFiftyAsFinal -->
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_customUpperLimit_shouldGenerateListUpToNewUpperLimit()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_customUpperLimit_shouldGenerateListUpToNewUpperLimit()[pri:1, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_customUpperLimit_shouldGenerateListUpToNewUpperLimit" duration-ms="7" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_customUpperLimit_shouldGenerateListUpToNewUpperLimit -->
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="setUpTestCaseReport(java.lang.reflect.Method)[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setUpTestCaseReport" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void takehome.assessment.fizzbuzz_api.FizzBuzzTest.fizzBuzzGenerator_customRangeLimitCustomValueNamePair_shouldGenerateListWithinNewLimitsUsingNewValueWordPair()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCaseReport -->
+        <test-method status="PASS" signature="fizzBuzzGenerator_customRangeLimitCustomValueNamePair_shouldGenerateListWithinNewLimitsUsingNewValueWordPair()[pri:2, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="fizzBuzzGenerator_customRangeLimitCustomValueNamePair_shouldGenerateListWithinNewLimitsUsingNewValueWordPair" duration-ms="6" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fizzBuzzGenerator_customRangeLimitCustomValueNamePair_shouldGenerateListWithinNewLimitsUsingNewValueWordPair -->
+        <test-method status="PASS" signature="setSpacing()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="setSpacing" is-config="true" duration-ms="2" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpacing -->
+        <test-method status="PASS" signature="closingRemarks()[pri:0, instance:takehome.assessment.fizzbuzz_api.FizzBuzzTest@5d76b067]" name="closingRemarks" is-config="true" duration-ms="0" started-at="2020-03-29T12:33:20 CDT" finished-at="2020-03-29T12:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingRemarks -->
       </class> <!-- takehome.assessment.fizzbuzz_api.FizzBuzzTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- FizzBuzzTest -->
+  </suite> <!-- Suite -->
 </testng-results>
